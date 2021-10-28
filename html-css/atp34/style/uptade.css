@@ -1,0 +1,94 @@
+body {
+    background-color: #EDEDED;
+}
+
+div{
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    background-color: #688f9773;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6C4A4A;
+}
+
+h2 {
+    text-transform: lowercase;
+    text-align: center;
+    color: #806767;
+    text-decoration: overline wavy;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 1rem;
+}
+
+nav,a{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+
+nav>a:hover{
+    color: beige;
+}
+
+
+form {
+    width: 60%;
+    justify-self: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+label {
+    width: 30%;
+    display: inline-flex;
+    height: 30px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    width: 60%;
+    border-radius: .3rem;
+    height: 30px;
+    padding: .2rem;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bt{
+    display: flex;
+    width: 80%;
+    justify-content: end;
+    background: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: antiquewhite;
+    width: 30%;
+    padding: .4rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    justify-self: end;
+    margin: 0%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(201, 164, 115);
+    width: 30%;
+    padding: .4rem;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    justify-self: end;
+    margin: 0%;
+}

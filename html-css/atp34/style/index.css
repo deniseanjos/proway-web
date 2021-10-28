@@ -1,0 +1,41 @@
+body {
+    background-color: #EDEDED;
+}
+
+div{
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    background-color: #688f9773;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6C4A4A;
+}
+
+h2 {
+    text-align: center;
+    color: #806767;
+    text-decoration: overline wavy;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+span {
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #5c5cc2;
+    padding-bottom: 1rem;
+}
+
+a:hover{
+    color: #b49898;
+}
